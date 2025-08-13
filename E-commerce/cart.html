@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Brand</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+       <!-- Header -->
+       <header class="header">
+        <div class="container header-top">
+            <div class="logo">
+                <img src="https://img.icons8.com/fluency/48/000000/shopping-bag.png" alt="Brand Logo" style="height:32px;vertical-align:middle;margin-right:6px;">
+                <span style="font-size:2rem;font-weight:bold;color:#2563eb;">Brand</span>
+            </div>
+            <form class="search-bar-form">
+                <input type="text" class="search-bar" placeholder="Search">
+                <select class="search-category">
+                    <option>All category</option>
+                    <option>Electronics</option>
+                    <option>Clothes</option>
+                    <option>Home</option>
+                </select>
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+            <div class="header-icons">
+                <div class="icon-group">
+                    <div class="icon-item">
+                        <img src="https://img.icons8.com/ios-filled/24/000000/user-male-circle.png" alt="Profile">
+                        <span>Profile</span>
+                    </div>
+                    <div class="icon-item">
+                        <img src="https://img.icons8.com/ios-filled/24/000000/filled-message.png" alt="Message">
+                        <span>Message</span>
+                    </div>
+                    <div class="icon-item">
+                        <img src="https://img.icons8.com/ios-filled/24/000000/purchase-order.png" alt="Orders">
+                        <span>Orders</span>
+                    </div>
+                    <div class="icon-item">
+                        <img src="https://img.icons8.com/ios-filled/24/000000/shopping-cart.png" alt="My cart">
+                        <span>My cart</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container header-bottom">
+            <nav class="main-nav">
+                <span class="hamburger">☰</span>
+                <a href="#">All category</a>
+                <a href="#">Hot offers</a>
+                <a href="#">Gift boxes</a>
+                <a href="#">Projects</a>
+                <a href="#">Menu item</a>
+                <a href="#">Help <span class="dropdown-arrow">&#9662;</span></a>
+            </nav>
+            <div class="header-corner-options">
+                <span class="lang-select-label">
+                    English, USD
+                    <span class="dropdown-arrow">&#9662;</span>
+                </span>
+                <span class="shipto-label">
+                    Ship to
+                    <img src="https://flagcdn.com/w20/de.png" alt="DE" style="vertical-align:middle;margin:0 4px;">
+                    <span class="dropdown-arrow">&#9662;</span>
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumbs -->
+    <div class="container breadcrumbs">
+        <nav class="breadcrumb-nav">
+            <a href="#">Home</a> > 
+            <a href="#">Clothings</a> > 
+            <a href="#">Men's wear</a> > 
+            <span>Summer clothing</span>
+        </nav>
+    </div>
+
+
+    <!-- Main Cart Content -->
+    <main class="container cart-main">
+        <div class="cart-content">
+            <!-- Left Side - Cart Items -->
+            <div class="cart-items-section">
+                <h2>My cart (3)</h2>
+                
+                <!-- Cart Item 1 -->
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src="./assets/images/T-shirt.png" alt="T-shirt">
+                    </div>
+                    <div class="item-details">
+                        <h3>T-shirts with multiple colors, for men and lady</h3>
+                        <p class="item-specs">Size: medium, Color: blue, Material: Plastic</p>
+                        <p class="seller">Seller: Artel Market</p>
+                        <div class="item-actions">
+                            <a href="#" class="remove-link">Remove</a>
+                            <a href="#" class="save-link">Save for later</a>
+                        </div>
+                    </div>
+                    <div class="item-price">
+                        <span class="price">$78.99</span>
+                    </div>
+                    <div class="item-quantity">
+                        <label>Qty:</label>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option selected>9</option>
+                            <option>10</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Cart Item 2 -->
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src="./assets/images/bag.png" alt="Backpack">
+                    </div>
+                    <div class="item-details">
+                        <h3>T-shirts with multiple colors, for men and lady</h3>
+                        <p class="item-specs">Size: medium, Color: blue, Material: Plastic</p>
+                        <p class="seller">Seller: Best factory LLC</p>
+                        <div class="item-actions">
+                            <a href="#" class="remove-link">Remove</a>
+                            <a href="#" class="save-link">Save for later</a>
+                        </div>
+                    </div>
+                    <div class="item-price">
+                        <span class="price">$39.00</span>
+                    </div>
+                    <div class="item-quantity">
+                        <label>Qty:</label>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option selected>3</option>
+                            <option>4</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Cart Item 3 -->
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src="./assets/images/Lamp.png" alt="Table Lamp">
+                    </div>
+                    <div class="item-details">
+                        <h3>T-shirts with multiple colors, for men and lady</h3>
+                        <p class="item-specs">Size: medium, Color: blue, Material: Plastic</p>
+                        <p class="seller">Seller: Artel Market</p>
+                        <div class="item-actions">
+                            <a href="#" class="remove-link">Remove</a>
+                            <a href="#" class="save-link">Save for later</a>
+                        </div>
+                    </div>
+                    <div class="item-price">
+                        <span class="price">$170.50</span>
+                    </div>
+                    <div class="item-quantity">
+                        <label>Qty:</label>
+                        <select>
+                            <option selected>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Cart Actions -->
+                <div class="cart-actions">
+                    <button class="back-to-shop">
+                        <span>←</span> Back to shop
+                    </button>
+                    <a href="#" class="remove-all">Remove all</a>
+                </div>
+            </div>
+
+            <!-- Right Side - Order Summary -->
+            <div class="order-summary">
+                <h3>Order summary</h3>
+                
+                <!-- Coupon Section -->
+                <div class="coupon-section">
+                    <h4>Have a coupon?</h4>
+                    <div class="coupon-input">
+                        <input type="text" placeholder="Add coupon">
+                        <button class="apply-btn">Apply</button>
+                    </div>
+                </div>
+
+                <!-- Price Breakdown -->
+                <div class="price-breakdown">
+                    <div class="price-row">
+                        <span>Subtotal:</span>
+                        <span>$1403.97</span>
+                    </div>
+                    <div class="price-row discount">
+                        <span>Discount:</span>
+                        <span>-$60.00</span>
+                    </div>
+                    <div class="price-row tax">
+                        <span>Tax:</span>
+                        <span>+$14.00</span>
+                    </div>
+                    <div class="price-row total">
+                        <span>Total:</span>
+                        <span>$1357.97</span>
+                    </div>
+                </div>
+
+                <!-- Checkout Button -->
+                <button class="checkout-btn">Checkout</button>
+
+                <!-- Payment Methods -->
+                <div class="payment-methods">
+                    <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa" style="height:24px;">
+                    <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="Mastercard" style="height:24px;">
+                    <img src="https://img.icons8.com/color/48/000000/paypal.png" alt="PayPal" style="height:24px;">
+                    <img src="https://img.icons8.com/color/48/000000/apple-pay.png" alt="Apple Pay" style="height:24px;">
+                </div>
+            </div>
+        </div>
+
+        <!-- Service Guarantees -->
+        <div class="service-guarantees">
+            <div class="service-item">
+                <div class="service-icon">
+                    <img src="https://img.icons8.com/fluency/48/000000/lock.png" alt="Secure Payment" style="height:32px;">
+                </div>
+                <h4>Secure payment</h4>
+                <p>Have you ever finally just write dummy info</p>
+            </div>
+            <div class="service-item">
+                <div class="service-icon">
+                    <img src="https://img.icons8.com/fluency/48/000000/chat.png" alt="Customer Support" style="height:32px;">
+                </div>
+                <h4>Customer support</h4>
+                <p>Have you ever finally just write dummy info</p>
+            </div>
+            <div class="service-item">
+                <div class="service-icon">
+                    <img src="https://img.icons8.com/fluency/48/000000/delivery.png" alt="Free Delivery" style="height:32px;">
+                </div>
+                <h4>Free delivery</h4>
+                <p>Have you ever finally just write dummy info</p>
+            </div>
+        </div>
+
+        <!-- Saved for Later Section -->
+        <div class="saved-section">
+            <h3>Saved for later</h3>
+            <div class="saved-items">
+                <div class="saved-item">
+                    <div class="saved-item-img-cont"><img src="./assets/images/phone.png" alt="Tablet"></div>
+                    
+                    <div class="saved-info">
+                        <span class="saved-price">$99.50</span>
+                        <h4>GoPro HERO6 4K Action Camera - Black</h4>
+                        <button class="move-to-cart">
+                            <img src="https://img.icons8.com/fluency/48/000000/shopping-cart.png" alt="Cart" style="height:16px;">
+                            Move to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="saved-item">
+                    <div class="saved-item-img-cont"><img src="./assets/images/bluephone.png" alt="Tablet"></div>
+                    <div class="saved-info">
+                        <span class="saved-price">$99.50</span>
+                        <h4>GoPro HERO6 4K Action Camera - Black</h4>
+                        <button class="move-to-cart">
+                            <img src="https://img.icons8.com/fluency/48/000000/shopping-cart.png" alt="Cart" style="height:16px;">
+                            Move to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="saved-item">
+                    <div class="saved-item-img-cont"><img src="./assets/images/laptop.png" alt="Tablet"></div>
+                    <div class="saved-info">
+                        <span class="saved-price">$99.50</span>
+                        <h4>GoPro HERO6 4K Action Camera - Black</h4>
+                        <button class="move-to-cart">
+                            <img src="https://img.icons8.com/fluency/48/000000/shopping-cart.png" alt="Cart" style="height:16px;">
+                            Move to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="saved-item">
+                    <div class="saved-item-img-cont"><img src="./assets/images/camera.png" alt="Tablet"></div>
+                    <div class="saved-info">
+                        <span class="saved-price">$99.50</span>
+                        <h4>GoPro HERO6 4K Action Camera - Black</h4>
+                        <button class="move-to-cart">
+                            <img src="https://img.icons8.com/fluency/48/000000/shopping-cart.png" alt="Cart" style="height:16px;">
+                            Move to cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Promotional Banner -->
+        <div class="promo-banner">
+            <div class="promo-content">
+                <h2>Super discount on more than 100 USD</h2>
+                <p>Have you ever finally just write dummy info</p>
+            </div>
+            <button class="shop-now-btn">Shop now</button>
+        </div>
+    </main>
+   <!-- Footer -->
+   <footer class="footer">
+    <div class="container footer-main">
+        <div class="footer-brand-col">
+            <div class="footer-brand">
+                <img src="https://img.icons8.com/fluency/48/000000/shopping-bag.png" alt="Brand Logo" style="height:32px;vertical-align:middle;margin-right:6px;">
+                <span style="font-size:2rem;font-weight:bold;color:#2563eb;">Brand</span>
+            </div>
+            <div class="footer-desc">Best information about the company gies here but now lorem ipsum is</div>
+            <div class="footer-socials">
+                <a href="#"><img src="https://img.icons8.com/ios-filled/24/cccccc/twitter.png"/></a>
+                <a href="#"><img src="https://img.icons8.com/ios-filled/24/cccccc/facebook-new.png"/></a>
+                <a href="#"><img src="https://img.icons8.com/ios-filled/24/cccccc/linkedin.png"/></a>
+                <a href="#"><img src="https://img.icons8.com/ios-filled/24/cccccc/instagram-new.png"/></a>
+                <a href="#"><img src="https://img.icons8.com/ios-filled/24/cccccc/youtube-play.png"/></a>
+            </div>
+        </div>
+        <div class="footer-links-col">
+            <div>
+                <b>About</b>
+                <a href="#">About Us</a>
+                <a href="#">Find store</a>
+                <a href="#">Categories</a>
+                <a href="#">Blogs</a>
+            </div>
+            <div>
+                <b>Partnership</b>
+                <a href="#">About Us</a>
+                <a href="#">Find store</a>
+                <a href="#">Categories</a>
+                <a href="#">Blogs</a>
+            </div>
+            <div>
+                <b>Information</b>
+                <a href="#">Help Center</a>
+                <a href="#">Money Refund</a>
+                <a href="#">Shipping</a>
+                <a href="#">Contact us</a>
+            </div>
+            <div>
+                <b>For users</b>
+                <a href="#">Login</a>
+                <a href="#">Register</a>
+                <a href="#">Settings</a>
+                <a href="#">My Orders</a>
+            </div>
+        </div>
+        <div class="footer-apps-col">
+            <b>Get app</b>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/100/000000/mac-os.png" style="height:32px;margin-bottom:8px;"/></a>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/100/000000/google-play.png" style="height:32px;"/></a>
+        </div>
+    </div>
+    <div class="container footer-bottom">
+        <span>&copy; 2023 Ecommerce.</span>
+        <span class="footer-lang"><img src="https://flagcdn.com/w20/us.png" alt="EN"> English <span class="dropdown-arrow">&#9650;</span></span>
+    </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
